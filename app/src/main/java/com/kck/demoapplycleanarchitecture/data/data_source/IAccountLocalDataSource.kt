@@ -1,0 +1,3 @@
+package com.kck.demoapplycleanarchitecture.data.data_source
+
+interface IAccountLocalDataSource : IAccountDataSource
