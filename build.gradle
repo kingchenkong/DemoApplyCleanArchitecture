@@ -1,3 +1,14 @@
+buildscript {
+    ext {
+        compose_ui_version = "1.2.0"
+        koin_space = "2.2.2"
+    }
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     id 'com.android.application' version '7.3.0' apply false
