@@ -1,7 +1,9 @@
 buildscript {
     ext {
-        compose_ui_version = "1.2.0"
         koin_space = "2.2.2"
+        lifecycle_ver = "2.5.1"
+        room_ver = "2.4.3"
+        retrofit_ver = "2.9.0"
     }
     repositories {
         gradlePluginPortal()
